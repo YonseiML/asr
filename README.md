@@ -1,5 +1,5 @@
 # ASR
-```
+```bibtex
 @inproceedings{lim2026and,
   title={When and Where to Reset Matters for Long-Term Test-Time Adaptation},
   author={Lim, Taejun and Hwang, Joong-Won and Lee, Kibok},
@@ -123,3 +123,6 @@ bash scripts/asr_eta_in_d.sh
 # baseline: ROID
 bash scripts/asr_roid_in_d.sh
 ```
+
+## Acknowledgements
+This work is built upon the [test-time-adaptation](https://github.com/mariodoebler/test-time-adaptation) repository. We sincerely appreciate the authors for sharing their valuable codebase.
