@@ -16,9 +16,11 @@ pip install -r requirements.txt
 ```
 
 ## Datasets
-* **CCC**: [[check this github](https://github.com/oripress/CCC)] // please follow the instruction provided in the github
-* **CIN-C**, **IN-C**: [[download link](https://zenodo.org/records/2235448#.Yj2RO_co_mF)]
-* **IN-D109**: [[download link](https://ai.bu.edu/M3SDA/)] // please download the clean version
+| Dataset | Link | Notes |
+| :--- | :--- | :--- |
+| **CCC** | [GitHub](https://github.com/oripress/CCC) | Download is recommended (vs. Streaming) |
+| **CIN-C / IN-C** | [Download](https://zenodo.org/records/2235448#.Yj2RO_co_mF) | Common corruption benchmarks |
+| **IN-D109** | [Download](https://ai.bu.edu/M3SDA/) | Use the clean version |
 
 ## Core Mechanism
 ```
