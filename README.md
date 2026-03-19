@@ -16,6 +16,9 @@ pip install -r requirements.txt
 ```
 
 ## Datasets
+* **CCC**: [[check this github](https://github.com/oripress/CCC)] // please follow the instruction provided in the github
+* **CIN-C**, **IN-C**: [[download link](https://zenodo.org/records/2235448#.Yj2RO_co_mF)]
+* **IN-D109**: [[download link](https://ai.bu.edu/M3SDA/)] // please download the clean version
 
 ## Core Mechanism
 ```
