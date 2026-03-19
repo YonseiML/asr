@@ -23,7 +23,7 @@ pip install -r requirements.txt
 | **IN-D109** | [Download](https://ai.bu.edu/M3SDA/) | Use the clean version |
 
 ## Core Mechanism
-```
+```python
 # methods/base.py
 if self.asr_on:
     self.asr_step += 1
