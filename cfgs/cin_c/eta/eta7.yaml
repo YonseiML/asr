@@ -1,0 +1,34 @@
+CORRUPTION:
+  DATASET: imagenet_c
+  SEVERITY:
+    - 5
+  TYPE:
+    - glass_blur
+    - zoom_blur
+    - impulse_noise
+    - fog
+    - snow
+    - jpeg_compression
+    - gaussian_noise
+    - frost
+    - shot_noise
+    - brightness
+    - contrast
+    - motion_blur
+    - pixelate
+    - defocus_blur
+    - elastic_transform
+MODEL:
+  ADAPTATION: eata
+  ARCH: resnet50
+OPTIM:
+  BETA: 0.9
+  LR: 0.00025
+  METHOD: SGD
+  STEPS: 1
+  WD: 0.0
+EATA:
+  FISHER_ALPHA: 0.0
+  D_MARGIN: 0.05
+TEST:
+  BATCH_SIZE: 64
